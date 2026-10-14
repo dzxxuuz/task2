@@ -1,11 +1,20 @@
 #include "Creature.h"
 
+Creature::Creature()
+{
+	name = "unknown";
+}
+
+Creature::Creature(string name) {
+	this->name = name;
+}
+
 void Creature::setName(string name)
 {
 	this->name = name;
 }
 
-string Creature::getName()
+string Creature::getName() const
 {
 	return name;
 }

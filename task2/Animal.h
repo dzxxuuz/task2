@@ -7,13 +7,17 @@ class Animal :
     string genus;
     float weight;
 public:
-    void setSpecies();
+    Animal(string name, string species, string genus, float weight);
+
+    void setSpecies(string species);
     string getSpecies()const;
 
-    void setGenus();
-    string setGenus()const;
+    void setGenus(string genus);
+    string getGenus()const;
 
-    void setWeight();
+    void setWeight(float weight);
     float getWeight()const;
+
+    void showInfo()const;
 };
 

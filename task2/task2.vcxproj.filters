@@ -24,12 +24,18 @@
     <ClCompile Include="Animal.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="Bird.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Creature.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
     <ClInclude Include="Animal.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Bird.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>
